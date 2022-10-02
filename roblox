@@ -1,0 +1,4 @@
+InsertSevice = game:GetService("InsertService")
+local ID = 11149292291--Model id here
+	local Model = InsertSevice:LoadAsset(ID)
+Model.Parent = workspace
